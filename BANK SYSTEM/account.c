@@ -13,7 +13,7 @@ void addAccount() {
     printf("Last Name: ");
     scanf("%s",accounts[accCount].lastname);
 
-    printf("Phone: ");
+    printf("Phone Number: ");
     scanf("%s",accounts[accCount].phone);
 
     printf("Account Type (saving/fixed): ");
